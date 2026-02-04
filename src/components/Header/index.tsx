@@ -46,9 +46,9 @@ const Header = () => {
             : "absolute bg-transparent"
         }`}
       >
-        <div className="container">
-          <div className="relative -mx-4 flex items-center justify-between">
-            <div className="w-80 max-w-full px-4 xl:mr-12">
+        <div className="container max-w-5xl">
+          <div className="relative -mx-4 flex items-center justify-between lg:justify-center">
+            <div className="w-72 max-w-full px-4 xl:mr-12 lg:absolute lg:left-0 lg:top-1/2 lg:-translate-y-1/2 lg:-ml-16 lg:mt-1">
               <Link
                 href="/"
                 className={`header-logo block w-full ${
@@ -64,7 +64,7 @@ const Header = () => {
                 />
               </Link>
             </div>
-            <div className="flex w-full items-center justify-between px-4">
+            <div className="flex w-full items-center justify-center px-4 lg:w-auto">
               <div>
                 <button
                   onClick={navbarToggleHandler}
