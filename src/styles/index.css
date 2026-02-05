@@ -133,3 +133,16 @@ layer(base);
     @apply inline-flex;
   }
 }
+
+@theme {
+  --animate-move-slow: move-slow 20s infinite alternate;
+  
+  @keyframes move-slow {
+    0% {
+      transform: translate(0, 0) rotate(0deg);
+    }
+    100% {
+      transform: translate(50px, 30px) rotate(5deg);
+    }
+  }
+}

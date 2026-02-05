@@ -35,9 +35,9 @@ const Projects = () => {
           Students don't just learn AI — they build it.
         </div>
 
-        <CursorBorderSection className="grid grid-cols-1 gap-8 md:grid-cols-2 bg-white dark:bg-[#0b0c1e]">
+        <CursorBorderSection className="grid grid-cols-1 gap-8 md:grid-cols-2 bg-transparent">
           {/* Examples Column with Staggered Animation */}
-          <ThreeDCard className="rounded-sm bg-gray-light p-8 dark:bg-bg-color-dark">
+          <ThreeDCard className="rounded-xl bg-[#12142a]/70 backdrop-blur-sm p-8 border border-white/10">
             <h3 className="mb-6 text-xl font-bold text-black dark:text-white">Examples</h3>
             
             <ul className="space-y-4 text-base text-body-color">
@@ -71,7 +71,7 @@ const Projects = () => {
           </ThreeDCard>
 
           {/* Industry Standards Column with Staggered Animation */}
-          <ThreeDCard className="rounded-sm bg-gray-light p-8 dark:bg-bg-color-dark">
+          <ThreeDCard className="rounded-xl bg-[#12142a]/70 backdrop-blur-sm p-8 border border-white/10">
             <h3 className="mb-6 text-xl font-bold text-black dark:text-white">
               Every project follows industry standards
             </h3>

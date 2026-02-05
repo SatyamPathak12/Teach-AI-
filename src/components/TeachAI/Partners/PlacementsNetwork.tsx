@@ -65,7 +65,7 @@ const PlacementsNetwork = () => {
   return (
     <section className="relative z-20 py-16 md:py-20 lg:py-28 overflow-hidden">
       {/* Background gradient */}
-      <div className="absolute inset-0 bg-gradient-to-br from-primary/5 via-transparent to-purple-500/5 -z-10" />
+      {/* Background - removed gradient for transparency */}
       
       <div className="container">
         <SectionTitle
@@ -76,7 +76,7 @@ const PlacementsNetwork = () => {
           mb="60px"
         />
 
-        <CursorBorderSection className="bg-gray-light dark:bg-bg-color-dark">
+        <CursorBorderSection className="bg-transparent">
         {/* Partner Types */}
         <div className="mb-16">
           <h3 className="mb-8 text-center text-2xl font-bold text-black dark:text-white">
@@ -85,7 +85,7 @@ const PlacementsNetwork = () => {
           <div className="mx-auto max-w-5xl">
             <div className="grid grid-cols-1 gap-8 md:grid-cols-3">
               {partnerTypes.map((partner, index) => (
-                <ThreeDCard key={index} className="w-full min-h-[240px] rounded-2xl bg-[#0b0c1e] p-8 text-center shadow-md duration-300 hover:shadow-lg border border-white/10">
+                <ThreeDCard key={index} className="w-full min-h-[240px] rounded-2xl bg-[#12142a]/70 backdrop-blur-sm p-8 text-center shadow-md duration-300 hover:shadow-lg border border-white/10">
                   <div className="mb-4 relative h-24 w-24 mx-auto">
                     <Image 
                       src={partner.icon} 
@@ -114,7 +114,7 @@ const PlacementsNetwork = () => {
           <div className="mx-auto max-w-5xl">
             <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
               {supportServices.map((service, index) => (
-                <ThreeDCard key={index} className="w-full min-h-[180px] rounded-xl bg-[#0b0c1e] p-6 shadow-md duration-300 hover:shadow-lg border border-white/10">
+                <ThreeDCard key={index} className="w-full min-h-[180px] rounded-xl bg-[#12142a]/70 backdrop-blur-sm p-6 shadow-md duration-300 hover:shadow-lg border border-white/10">
                   <div className="mb-4 inline-flex items-center justify-center rounded-lg bg-white/10 p-3 text-primary">
                     {service.icon}
                   </div>

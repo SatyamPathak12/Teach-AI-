@@ -3,7 +3,7 @@ import CursorBorderSection from "./CursorBorderSection";
 
 const Outcomes = () => {
   return (
-    <section className="py-16 md:py-20 lg:py-28 bg-primary/5 dark:bg-primary/10">
+    <section className="py-16 md:py-20 lg:py-28 bg-transparent">
       <div className="container">
         <SectionTitle
           title="Education With Accountability"
@@ -13,7 +13,7 @@ const Outcomes = () => {
           mb="80px"
         />
 
-        <CursorBorderSection className="mx-auto max-w-[800px] text-center bg-white dark:bg-[#0b0c1e]">
+        <CursorBorderSection className="mx-auto max-w-[800px] text-center bg-[#12142a]/70 backdrop-blur-sm border border-white/10 rounded-xl">
           <p className="mb-8 text-xl font-medium text-black dark:text-white">
             We measure success by outcomes, not attendance.
           </p>

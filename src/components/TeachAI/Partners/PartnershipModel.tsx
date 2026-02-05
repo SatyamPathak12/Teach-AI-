@@ -80,7 +80,7 @@ const ScrollingCards = ({ items }: { items: typeof teachAIProvides }) => {
         }`}
       >
           <div 
-            className="group flex items-center gap-6 rounded-2xl border-2 bg-[#0b0c1e] p-6 h-[160px] transition-all duration-200"
+            className="group flex items-center gap-6 rounded-2xl border-2 bg-[#12142a]/70 backdrop-blur-sm p-6 h-[160px] transition-all duration-200"
           >
           <div className="flex h-16 w-16 flex-shrink-0 items-center justify-center rounded-full border-2 border-primary/30 bg-primary/10 text-4xl transition-all duration-300 group-hover:scale-110">
             {bottomItem.icon}
@@ -138,7 +138,7 @@ const ScrollingCards = ({ items }: { items: typeof teachAIProvides }) => {
 
 const PartnershipModel = () => {
   return (
-    <section className="relative z-20 py-16 md:py-20 lg:py-28 bg-gray-light dark:bg-bg-color-dark">
+    <section className="relative z-20 py-16 md:py-20 lg:py-28 bg-transparent">
       <div className="container">
         <SectionTitle
           title="Partnership Model"
@@ -148,7 +148,7 @@ const PartnershipModel = () => {
           mb="60px"
         />
 
-        <CursorBorderSection className="bg-white dark:bg-[#0b0c1e]">
+        <CursorBorderSection className="bg-transparent">
         <div className="mx-auto max-w-6xl space-y-20">
           {/* Teach AI Provides Section */}
           <div className="grid grid-cols-1 gap-12 lg:grid-cols-2 items-center">
@@ -174,7 +174,7 @@ const PartnershipModel = () => {
               <div className="w-full border-t border-white/10"></div>
             </div>
             <div className="relative flex justify-center">
-              <span className="bg-gray-light dark:bg-bg-color-dark px-6 text-sm font-semibold text-primary">
+              <span className="bg-transparent px-6 text-sm font-semibold text-primary">
                 Partnership Balance
               </span>
             </div>

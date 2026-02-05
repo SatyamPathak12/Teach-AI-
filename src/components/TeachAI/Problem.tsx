@@ -4,7 +4,7 @@ import CursorBorderSection from "./CursorBorderSection";
 
 const Problem = () => {
   return (
-    <section id="problem" className="py-16 md:py-20 lg:py-28 bg-gray-light dark:bg-bg-color-dark">
+    <section id="problem" className="py-16 md:py-20 lg:py-28 bg-transparent">
       <div className="container">
         <SectionTitle
           title="Engineering Education Is Broken"
@@ -14,9 +14,9 @@ const Problem = () => {
           mb="80px"
         />
 
-        <CursorBorderSection className="bg-white dark:bg-[#0b0c1e]">
+        <CursorBorderSection className="bg-transparent">
         <div className="grid grid-cols-1 gap-x-8 gap-y-14 md:grid-cols-2 lg:grid-cols-3">
-          <ThreeDCard className="w-full min-h-[300px] rounded-xl bg-[#0b0c1e] p-8 shadow-md duration-300 hover:shadow-lg border border-white/10">
+          <ThreeDCard className="w-full min-h-[300px] rounded-xl bg-transparent p-8 shadow-[0_0_20px_-5px_rgba(74,108,247,0.15)] duration-300 hover:shadow-[0_0_25px_-5px_rgba(74,108,247,0.25)] border border-white/5">
             <div className="mb-6 flex h-14 w-14 items-center justify-center rounded-md bg-white/10">
               <svg width="30" height="30" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M12 6.042A8.967 8.967 0 0 0 6 3.75c-2.127 0-4.178.679-5.892 1.83.426 1.764 1.25 3.423 2.375 4.847 2.016 2.553 5.092 4.09 8.517 4.025V6.042Zm0 0c3.425.065 6.501-1.472 8.517-4.025 1.125-1.424 1.949-3.083 2.375-4.847A8.966 8.966 0 0 0 18 3.75c-2.31 0-4.437-.783-6-2.092V6.042Z" stroke="#3B82F6" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
@@ -31,7 +31,7 @@ const Problem = () => {
             </p>
           </ThreeDCard>
           
-          <ThreeDCard className="w-full min-h-[300px] rounded-xl bg-[#0b0c1e] p-8 shadow-md duration-300 hover:shadow-lg border border-white/10">
+          <ThreeDCard className="w-full min-h-[300px] rounded-xl bg-transparent p-8 shadow-[0_0_20px_-5px_rgba(74,108,247,0.15)] duration-300 hover:shadow-[0_0_25px_-5px_rgba(74,108,247,0.25)] border border-white/5">
             <div className="mb-6 flex h-14 w-14 items-center justify-center rounded-md bg-white/10">
               <svg width="30" height="30" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M17.25 6.75 22.5 12l-5.25 5.25m-10.5 0L1.5 12l5.25-5.25m7.5-3v16.5" stroke="#3B82F6" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
@@ -45,7 +45,7 @@ const Problem = () => {
             </p>
           </ThreeDCard>
           
-          <ThreeDCard className="w-full min-h-[300px] rounded-xl bg-[#0b0c1e] p-8 shadow-md duration-300 hover:shadow-lg border border-white/10">
+          <ThreeDCard className="w-full min-h-[300px] rounded-xl bg-transparent p-8 shadow-[0_0_20px_-5px_rgba(74,108,247,0.15)] duration-300 hover:shadow-[0_0_25px_-5px_rgba(74,108,247,0.25)] border border-white/5">
             <div className="mb-6 flex h-14 w-14 items-center justify-center rounded-md bg-white/10">
               <svg width="30" height="30" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                  <path d="M10 3a1.5 1.5 0 00-1.5 1.5h-3A1.5 1.5 0 004 6v2a1.5 1.5 0 001.5 1.5h13A1.5 1.5 0 0020 8V6a1.5 1.5 0 00-1.5-1.5h-3A1.5 1.5 0 0014 3h-4z" stroke="#3B82F6" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>

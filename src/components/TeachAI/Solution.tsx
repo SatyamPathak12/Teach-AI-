@@ -42,7 +42,7 @@ const Solution = () => {
         </div>
 
         {/* Horizontal Journey Timeline */}
-        <CursorBorderSection className="bg-white dark:bg-[#0b0c1e] mb-20">
+        <CursorBorderSection className="bg-transparent mb-20">
         <div className="relative p-4">
           <div className="mx-auto max-w-5xl">
             {/* Connecting Line */}

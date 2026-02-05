@@ -75,7 +75,7 @@ const deliveryFormat = [
 
 const CurriculumDelivery = () => {
   return (
-    <section className="relative z-20 py-16 md:py-20 lg:py-28 bg-gray-light dark:bg-bg-color-dark">
+    <section className="relative z-20 py-16 md:py-20 lg:py-28 bg-transparent">
       <div className="container">
         <SectionTitle
           title="Curriculum & Delivery"
@@ -85,7 +85,7 @@ const CurriculumDelivery = () => {
           mb="60px"
         />
 
-        <CursorBorderSection className="bg-white dark:bg-[#0b0c1e]">
+        <CursorBorderSection className="bg-transparent">
         {/* Curriculum Content */}
         <div className="mb-16">
           <h3 className="mb-8 text-center text-2xl font-bold text-black dark:text-white">
@@ -93,7 +93,7 @@ const CurriculumDelivery = () => {
           </h3>
           <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
             {curriculumContent.map((item, index) => (
-              <ThreeDCard key={index} className="w-full min-h-[220px] rounded-xl bg-[#0b0c1e] p-6 shadow-md duration-300 hover:shadow-lg border border-white/10">
+              <ThreeDCard key={index} className="w-full min-h-[220px] rounded-xl bg-[#12142a]/70 backdrop-blur-sm p-6 shadow-md duration-300 hover:shadow-lg border border-white/10">
                 <div className="mb-4 inline-flex items-center justify-center rounded-lg bg-white/10 p-3 text-primary">
                   {item.icon}
                 </div>
@@ -116,7 +116,7 @@ const CurriculumDelivery = () => {
           <div className="mx-auto max-w-4xl">
             <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
               {deliveryFormat.map((item, index) => (
-                <ThreeDCard key={index} className="w-full min-h-[120px] rounded-xl bg-[#0b0c1e] p-6 shadow-md duration-300 hover:shadow-lg border border-white/10">
+                <ThreeDCard key={index} className="w-full min-h-[120px] rounded-xl bg-[#12142a]/70 backdrop-blur-sm p-6 shadow-md duration-300 hover:shadow-lg border border-white/10">
                   <div className="flex items-start gap-4">
                     <div className="flex-shrink-0 text-4xl">
                       {item.icon}

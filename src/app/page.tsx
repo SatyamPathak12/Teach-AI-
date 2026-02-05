@@ -8,6 +8,7 @@ import Projects from "@/components/TeachAI/Projects";
 import Outcomes from "@/components/TeachAI/Outcomes";
 import Audience from "@/components/TeachAI/Audience";
 import CTA from "@/components/TeachAI/CTA";
+import GlobalBackground from "@/components/Common/GlobalBackground";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -19,6 +20,7 @@ export const metadata: Metadata = {
 export default function Home() {
   return (
     <>
+      <GlobalBackground />
       <ScrollUp />
       <RevealOnScroll><Hero /></RevealOnScroll>
       <RevealOnScroll><Problem /></RevealOnScroll>

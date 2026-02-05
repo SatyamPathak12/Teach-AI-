@@ -37,7 +37,7 @@ const timelinePhases = [
 
 const ImplementationTimeline = () => {
   return (
-    <section className="relative z-20 py-16 md:py-20 lg:py-28 bg-gray-light dark:bg-bg-color-dark">
+    <section className="relative z-20 py-16 md:py-20 lg:py-28 bg-transparent">
       <div className="container">
         <SectionTitle
           title="Implementation Timeline"
@@ -47,7 +47,7 @@ const ImplementationTimeline = () => {
           mb="60px"
         />
 
-        <CursorBorderSection className="bg-white dark:bg-[#0b0c1e]">
+        <CursorBorderSection className="bg-transparent">
         <div className="relative mx-auto max-w-6xl">
           {/* Connecting Line - Desktop */}
           <div className="absolute left-0 right-0 top-[80px] hidden h-1 bg-gradient-to-r from-cyan-500 via-purple-500 to-pink-500 md:block" 
@@ -70,7 +70,7 @@ const ImplementationTimeline = () => {
                 </div>
 
                 {/* Phase Content */}
-                <ThreeDCard className="w-full min-h-[200px] rounded-2xl bg-[#0b0c1e] p-6 shadow-md duration-300 hover:shadow-lg border border-white/10">
+                <ThreeDCard className="w-full min-h-[200px] rounded-2xl bg-[#12142a]/70 backdrop-blur-sm p-6 shadow-md duration-300 hover:shadow-lg border border-white/10">
                 <h3 className="mb-4 text-xl font-bold text-white">
                   {phase.title}
                 </h3>

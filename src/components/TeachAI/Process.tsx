@@ -52,7 +52,7 @@ const roadmapData = [
 
 const Process = () => {
   return (
-    <section className="bg-gray-light py-16 dark:bg-bg-color-dark md:py-20 lg:py-28">
+    <section className="bg-transparent py-16 md:py-20 lg:py-28">
       <div className="container">
         <SectionTitle
           title="Simple. Structured. Outcome-Driven."
@@ -62,14 +62,14 @@ const Process = () => {
           mb="80px"
         />
 
-        <CursorBorderSection className="bg-white dark:bg-[#0b0c1e] mx-auto max-w-4xl relative">
+        <CursorBorderSection className="bg-transparent backdrop-blur-sm mx-auto max-w-4xl relative">
         <div className="relative">
            <div className="absolute left-[26px] top-0 bottom-12 w-[3px] bg-gradient-to-b from-primary via-[#a855f7] to-primary/0" />
 
           {roadmapData.map((item, index) => (
             <div key={item.id} className="relative z-10 mb-12 pl-32 group">
        
-              <div className="absolute left-0 top-0 h-24 w-24 rounded-2xl border-2 border-primary/30 bg-[#0f1124] shadow-[0_0_20px_rgba(59,130,246,0.25)] transition-all duration-300 group-hover:border-primary group-hover:shadow-[0_0_30px_rgba(59,130,246,0.4)] overflow-hidden">
+              <div className="absolute left-0 top-0 h-24 w-24 rounded-2xl border-2 border-primary/30 bg-[#0f1124]/80 shadow-[0_0_20px_rgba(59,130,246,0.25)] transition-all duration-300 group-hover:border-primary group-hover:shadow-[0_0_30px_rgba(59,130,246,0.4)] overflow-hidden">
                 <Image
                   src={item.image}
                   alt={item.title}
@@ -80,14 +80,14 @@ const Process = () => {
               </div>
               
               {/* Checkmark Badge - Outside the image container */}
-              <div className="absolute left-[82px] top-[-6px] h-5 w-5 rounded-full border-2 border-[#0b0c1e] bg-primary flex items-center justify-center shadow-sm z-20">
+              <div className="absolute left-[82px] top-[-6px] h-5 w-5 rounded-full border-2 border-[#0b0c1e]/80 bg-primary flex items-center justify-center shadow-sm z-20">
                   <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="4" strokeLinecap="round" strokeLinejoin="round" className="text-black">
                       <polyline points="20 6 9 17 4 12"></polyline>
                   </svg>
               </div>
 
    
-              <div className="relative flex flex-col md:flex-row items-start md:items-center justify-between rounded-2xl border border-white/5 bg-[#12142a] p-6 shadow-xl transition-all duration-300 hover:border-white/10 hover:bg-[#161832] group-hover:translate-x-2">
+              <div className="relative flex flex-col md:flex-row items-start md:items-center justify-between rounded-2xl border border-white/10 bg-[#12142a]/70 backdrop-blur-sm p-6 shadow-xl transition-all duration-300 hover:border-white/20 hover:bg-[#161832]/80 group-hover:translate-x-2">
                 <div className="mb-4 md:mb-0">
                   <h3 className="mb-2 text-xl font-bold text-white">
                     {item.title}

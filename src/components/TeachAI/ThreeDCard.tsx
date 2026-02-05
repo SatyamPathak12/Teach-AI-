@@ -17,14 +17,14 @@ const ThreeDCard = ({ children, className = "" }) => {
     const centerX = rect.width / 2;
     const centerY = rect.height / 2;
 
-    const rotateX = ((y - centerY) / centerY) * -10; // Max rotation 10deg
-    const rotateY = ((x - centerX) / centerX) * 10;
+    const rotateX = ((y - centerY) / centerY) * -25; // Max rotation 25deg
+    const rotateY = ((x - centerX) / centerX) * 25;
 
     setRotation({ x: rotateX, y: rotateY });
   };
 
   const handleMouseEnter = () => {
-    setScale(1.05);
+    setScale(1.1);
   };
 
   const handleMouseLeave = () => {
@@ -41,6 +41,7 @@ const ThreeDCard = ({ children, className = "" }) => {
       className={`transition-transform duration-200 ease-out ${className}`}
       style={{
         transform: `perspective(1000px) rotateX(${rotation.x}deg) rotateY(${rotation.y}deg) scale3d(${scale}, ${scale}, ${scale})`,
+        boxShadow: scale > 1 ? `${-rotation.y}px ${rotation.x * 0.5 + 10}px 30px rgba(74, 108, 247, 0.25)` : undefined,
         transformStyle: "preserve-3d",
       }}
     >

@@ -7,6 +7,7 @@ import CurriculumDelivery from "@/components/TeachAI/Partners/CurriculumDelivery
 import PlacementsNetwork from "@/components/TeachAI/Partners/PlacementsNetwork";
 import ImplementationTimeline from "@/components/TeachAI/Partners/ImplementationTimeline";
 import PartnersCTA from "@/components/TeachAI/Partners/PartnersCTA";
+import GlobalBackground from "@/components/Common/GlobalBackground";
 
 export const metadata: Metadata = {
   title: "For Colleges & Partners | Teach AI",
@@ -17,6 +18,7 @@ export const metadata: Metadata = {
 export default function CollegesPartnersPage() {
   return (
     <>
+      <GlobalBackground />
       <RevealOnScroll><PartnerHero /></RevealOnScroll>
       <RevealOnScroll><PartnershipBenefits /></RevealOnScroll>
       <RevealOnScroll><PartnershipModel /></RevealOnScroll>

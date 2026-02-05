@@ -31,13 +31,12 @@ const CursorBorderSection = ({ children, className = "" }: CursorBorderSectionPr
 
     return {
       backgroundImage: `radial-gradient(600px circle at ${x}px ${y}px, rgba(74, 108, 247, 0.3), transparent 40%)`,
-      borderColor: 'rgba(74, 108, 247, 0.8)',
     };
   };
 
   return (
     <div
-      className={`rounded-3xl border-2 p-8 md:p-12 lg:p-16 ${className}`}
+      className={`rounded-3xl p-8 md:p-12 lg:p-16 ${className}`}
       onMouseMove={handleMouseMove}
       onMouseLeave={handleMouseLeave}
       style={getSectionStyle()}

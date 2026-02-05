@@ -43,7 +43,7 @@ const benefits = [
 
 const PartnershipBenefits = () => {
   return (
-    <section className="relative z-20 py-16 md:py-20 lg:py-28 bg-gray-light dark:bg-bg-color-dark">
+    <section className="relative z-20 py-16 md:py-20 lg:py-28 bg-transparent">
       <div className="container">
         <SectionTitle
           title="Why Colleges Partner with Teach AI"
@@ -53,10 +53,10 @@ const PartnershipBenefits = () => {
           mb="60px"
         />
 
-        <CursorBorderSection className="bg-white dark:bg-[#0b0c1e]">
+        <CursorBorderSection className="bg-transparent">
         <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:gap-12">
           {benefits.map((benefit, index) => (
-            <ThreeDCard key={index} className="w-full min-h-[280px] rounded-xl bg-[#0b0c1e] p-8 shadow-md duration-300 hover:shadow-lg border border-white/10">
+            <ThreeDCard key={index} className="w-full min-h-[280px] rounded-xl bg-[#12142a]/70 backdrop-blur-sm p-8 shadow-md duration-300 hover:shadow-lg border border-white/10">
               <div className="mb-6 inline-flex items-center justify-center rounded-xl bg-white/10 p-4 text-primary transition-all duration-300">
                 {benefit.icon}
               </div>
