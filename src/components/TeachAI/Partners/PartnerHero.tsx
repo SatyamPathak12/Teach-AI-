@@ -22,10 +22,10 @@ const PartnerHero = () => {
                 and strengthen your institution's reputation without disrupting your degree programs.
               </p>
               <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
-                <div className="rounded-sm bg-primary px-8 py-4 text-base font-semibold text-white transition-all duration-300 hover:-translate-y-1 hover:shadow-lg cursor-pointer">
+                <div className="rounded-lg bg-primary px-8 py-4 text-base font-semibold text-white shadow-lg transition-all duration-300 hover:-translate-y-2 hover:shadow-[0_20px_40px_rgba(79,70,229,0.4)] cursor-pointer">
                   Knowledge Partner
                 </div>
-                <div className="rounded-sm bg-primary px-8 py-4 text-base font-semibold text-white transition-all duration-300 hover:-translate-y-1 hover:shadow-lg cursor-pointer">
+                <div className="rounded-lg bg-primary px-8 py-4 text-base font-semibold text-white shadow-lg transition-all duration-300 hover:-translate-y-2 hover:shadow-[0_20px_40px_rgba(79,70,229,0.4)] cursor-pointer">
                   Not Degree Provider
                 </div>
               </div>

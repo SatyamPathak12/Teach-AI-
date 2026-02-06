@@ -19,22 +19,22 @@ const Outcomes = () => {
           </p>
 
           <div className="mb-12 grid grid-cols-1 gap-6 sm:grid-cols-2">
-            <div className="bg-primary p-6 shadow-one transition-all duration-300 ease-in-out hover:-translate-y-1 hover:shadow-lg">
+            <div className="bg-primary p-6 rounded-xl shadow-lg transition-all duration-300 ease-in-out hover:-translate-y-2 hover:shadow-[0_20px_40px_rgba(79,70,229,0.4)]">
               <h4 className="mb-3 text-lg font-bold text-white">
                 Students graduate with portfolio-ready AI projects
               </h4>
             </div>
-            <div className="bg-primary p-6 shadow-one transition-all duration-300 ease-in-out hover:-translate-y-1 hover:shadow-lg">
+            <div className="bg-primary p-6 rounded-xl shadow-lg transition-all duration-300 ease-in-out hover:-translate-y-2 hover:shadow-[0_20px_40px_rgba(79,70,229,0.4)]">
               <h4 className="mb-3 text-lg font-bold text-white">
                 Industry-aligned skills & tools
               </h4>
             </div>
-            <div className="bg-primary p-6 shadow-one transition-all duration-300 ease-in-out hover:-translate-y-1 hover:shadow-lg">
+            <div className="bg-primary p-6 rounded-xl shadow-lg transition-all duration-300 ease-in-out hover:-translate-y-2 hover:shadow-[0_20px_40px_rgba(79,70,229,0.4)]">
               <h4 className="mb-3 text-lg font-bold text-white">
                 Mock interviews and hiring prep
               </h4>
             </div>
-            <div className="bg-primary p-6 shadow-one transition-all duration-300 ease-in-out hover:-translate-y-1 hover:shadow-lg">
+            <div className="bg-primary p-6 rounded-xl shadow-lg transition-all duration-300 ease-in-out hover:-translate-y-2 hover:shadow-[0_20px_40px_rgba(79,70,229,0.4)]">
               <h4 className="mb-3 text-lg font-bold text-white">
                 Placement support via partner companies
               </h4>
